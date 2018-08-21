@@ -1,0 +1,21 @@
+.grid-container {
+    margin: 20px;
+  }
+
+  .form-container{
+      padding: 10px;
+      background-color: #fff
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container > * {
+    width: 100%;
+  }
+
+  .mat-stroked-button{
+    margin: 0px 10px 10px 0;
+  }

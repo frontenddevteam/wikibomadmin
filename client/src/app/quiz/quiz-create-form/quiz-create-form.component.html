@@ -1,0 +1,49 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Create Quiz</h1>
+
+  <div class="form-container">
+    <mat-form-field>
+      <textarea matInput placeholder="Question"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Answer A">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Answer B">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Answer C">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Answer D">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select placeholder="Right Answer" value="A">
+        <mat-option value="A">A</mat-option>
+        <mat-option value="B">B</mat-option>
+        <mat-option value="C">C</mat-option>
+        <mat-option value="D">D</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select placeholder="Level" value="easy">
+        <mat-option value="easy">Easy</mat-option>
+        <mat-option value="medium">Medium</mat-option>
+        <mat-option value="hard">Hard</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+        <textarea  matInput placeholder="Explantion (optional)"></textarea>
+      </mat-form-field>
+    <div class="button-row">
+      <button mat-stroked-button color="primary">Save</button>
+      <button mat-stroked-button routerLink="/quiz">Cancel</button>
+    </div>
+  </div>

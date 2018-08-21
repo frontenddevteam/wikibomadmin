@@ -1,0 +1,54 @@
+<div class="grid-container">
+  <mat-card class="quiz-card">
+    <mat-card-header>
+      <div mat-card-avatar class="account-header-image" style="background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');"></div>
+      <mat-card-title>by {{quiz.user}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item>
+          <h4 mat-line>Question</h4>
+          <p mat-line>{{quiz.question}}</p>
+        </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Answer A</h4>
+          <p mat-line>{{quiz.answerA}}</p>
+        </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Answer B</h4>
+          <p mat-line>{{quiz.answerB}}</p>
+        </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Answer C</h4>
+          <p mat-line>{{quiz.answerC}}</p>
+        </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Answer D</h4>
+          <p mat-line>{{quiz.answerD}}</p>
+        </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Right Answer</h4>
+          <p mat-line>{{quiz.rightAnswer}}</p>
+        </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Level</h4>
+          <p mat-line>{{quiz.level}}</p>
+        </mat-list-item>
+        <mat-list-item>
+            <h4 mat-line>Category</h4>
+            <p mat-line>{{quiz.category}}</p>
+          </mat-list-item>
+        <mat-list-item>
+          <h4 mat-line>Explanation</h4>
+          <p mat-line>{{quiz.explanation}}</p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-stroked-button color="primary" routerLink="/quiz">Back</button>
+      <button mat-stroked-button color="accent" routerLink="/quiz/1/form">Edit</button>
+      <button mat-stroked-button color="warn">Delete</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

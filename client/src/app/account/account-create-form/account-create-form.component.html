@@ -1,0 +1,28 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Create Account</h1>
+
+  <div class="form-container">
+    <mat-form-field>
+      <input matInput placeholder="Display name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Username">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Password" type="password">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select placeholder="Role">
+        <mat-option value="option">User</mat-option>
+        <mat-option value="option">Operator</mat-option>
+        <mat-option value="option">Admin</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="button-row">
+      <button mat-stroked-button color="primary">Save</button>
+      <button mat-stroked-button routerLink="/account">Cancel</button>
+    </div>
+  </div>

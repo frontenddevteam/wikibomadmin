@@ -1,0 +1,16 @@
+.grid-container {
+    margin: 20px;
+  }
+  
+.quiz-card {
+    max-width: 100%;
+  }
+  
+  .quiz-header-image {
+    /*background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');*/
+    background-size: cover;
+  }
+
+  .mat-stroked-button {
+      margin: 0 10px 10px 0;
+  }

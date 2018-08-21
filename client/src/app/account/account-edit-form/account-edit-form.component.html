@@ -1,0 +1,28 @@
+<div class="grid-container">
+    <h1 class="mat-h1">Edit Account</h1>
+  
+    <div class="form-container">
+      <mat-form-field>
+        <input matInput placeholder="Display name" value="Tuyen Ha">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="Username" value="tuyenha">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="Password" type="password" value="*******">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-select placeholder="Role" value="operation">
+          <mat-option value="user">User</mat-option>
+          <mat-option value="operation">Operator</mat-option>
+          <mat-option value="admin">Admin</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="button-row">
+        <button mat-raised-button color="primary">Save</button>
+        <button mat-raised-button routerLink="/account/1">Cancel</button>
+      </div>
+    </div>
