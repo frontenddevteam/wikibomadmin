@@ -1,1 +1,3 @@
-// this is for start app
+const server = require("./server/");
+
+server.startServer();

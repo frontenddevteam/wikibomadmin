@@ -1,0 +1,31 @@
+{
+  "name": "wikibomadmin",
+  "version": "1.0.0",
+  "description": "Hoang Anh joined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontenddevteam/wikibomadmin.git"
+  },
+  "keywords": [
+    "wikibo"
+  ],
+  "author": "KMS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontenddevteam/wikibomadmin/issues"
+  },
+  "homepage": "https://github.com/frontenddevteam/wikibomadmin#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.3",
+    "nodemon": "^1.18.3",
+    "q": "^1.5.1"
+  }
+}

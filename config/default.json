@@ -1,0 +1,11 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 8081
+    },
+    "mongoDB": {
+        "url": "mongodb://localhost:27017",
+        "dbName": "wikibomadmin",
+        "collection": "wikibomadmin"
+    }
+}
